@@ -1,0 +1,25 @@
+# Environment Variables (CRITICAL: Do not push API keys)
+.env
+
+# SQLite Database (CRITICAL: Do not push local memory state)
+memory.db
+*.sqlite3
+*.db
+
+# Virtual Environments
+.venv/
+
+# Python Cache & Build Files
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+wheels/
+*.egg-info
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
